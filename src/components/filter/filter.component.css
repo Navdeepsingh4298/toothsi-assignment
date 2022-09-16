@@ -1,0 +1,11 @@
+.dropdown {
+	padding: 5px;
+	margin-right: 5px;
+	outline: none;
+}
+.resetbtn {
+	background-color: white;
+	border: none;
+	cursor: pointer;
+	color: rgb(15, 197, 243);
+}
