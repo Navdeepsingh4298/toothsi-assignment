@@ -9,6 +9,7 @@ const Search = () => {
 
 	const handleChange = (e) => {
 		setSearchText(e.target.value);
+		console.log(searchText);
 	};
 
 	return (
