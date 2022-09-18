@@ -1,10 +1,12 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 import "./add.to.cart.btn.component.css";
 
 const AddToCartBtn = () => {
+	const navigate = useNavigate();
 	const handleClick = () => {
-		console.log("add to cart button clicked");
+		navigate("/cart");
 	};
 
 	return (

@@ -1,0 +1,14 @@
+.cart-item-head-list {
+	display: grid;
+	grid-template-columns: 2fr repeat(3, 1fr);
+	grid-column-gap: 10px;
+	align-items: center;
+	justify-items: center;
+	padding: 20px;
+	font-weight: 700;
+	border-bottom: 2px solid #eee;
+}
+
+.cart-item-head-list li {
+	list-style-type: none;
+}

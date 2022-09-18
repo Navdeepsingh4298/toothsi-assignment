@@ -1,0 +1,13 @@
+.cart {
+	display: flex;
+	justify-content: space-between;
+	padding: 50px 20px;
+}
+
+.cart-items-container {
+	width: 73%;
+}
+
+.cart-totals-container {
+	width: 25%;
+}
