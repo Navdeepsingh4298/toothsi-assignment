@@ -1,4 +1,4 @@
-import ItemListHead from "./components/item-list-head/item.list.head.component";
+import Home from "./pages/homepage/home";
 
 // Stylesheet
 import "./App.css";
@@ -6,7 +6,7 @@ import "./App.css";
 function App() {
 	return (
 		<>
-			<ItemListHead />
+			<Home />
 		</>
 	);
 }
